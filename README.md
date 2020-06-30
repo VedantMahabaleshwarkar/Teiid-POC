@@ -10,7 +10,8 @@ The goal of this POC is to demonstrate the use of the [Teiid Operator](https://g
 2. Set up access control policies for reads and writes to the data.
    1. Use the KeyCloak Operator to manage access control
 
-//insert images here
+![image](https://github.com/VedantMahabaleshwarkar/Teiid-POC/blob/master/Teiid%20Poc.png)
+![image](https://github.com/VedantMahabaleshwarkar/Teiid-POC/blob/master/access%20control%20teiid.png)
 
 ## Getting Started
 
