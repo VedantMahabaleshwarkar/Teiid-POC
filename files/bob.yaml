@@ -1,0 +1,23 @@
+apiVersion: keycloak.org/v1alpha1
+kind: KeycloakUser
+metadata:
+  name: bob
+  labels:
+    app: sso
+spec:
+  user:
+    username: bob
+    firstName: Bob
+    lastName: Smith
+    email: bob@example.com
+    enabled: true
+    emailVerified: true
+    realmRoles:
+      - broker
+    credentials:
+      - temporary: false
+        type: password
+        value: changeit
+  realmSelector:
+    matchLabels:
+      app: sso
